@@ -12,10 +12,16 @@ export const pouchBackend: BackendModule = {
       .then((d) => d.mapping);
   },
   save: (language, namespace, data) => {
-    return db.put({
-      _id: [language, namespace].join("-"),
-      mapping: data,
-    });
+    return db
+      .put({
+        _id: [language, namespace].join("-"),
+        mapping: data,
+      })
+      .catch(() => {
+        db.get([language, namespace].join("-")).then((d) =>
+          db.put({ ...d, mapping: data })
+        );
+      });
   },
   create: (languages, namespace, key, fallbackValue) => {
     return Promise.all(
