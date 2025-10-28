@@ -1,0 +1,17 @@
+{
+    "addPlant": "Pflanze eintragen",
+    "inputPlant": "Was hast Du heute gegessen?",
+    "vegetables": "Gemüse",
+    "fruit": "Früchte",
+    "grains": "Getreide",
+    "legumes": "Hülsenfrüchte",
+    "nuts": "Nüsse / Samen",
+    "herbs": "Kräuert / Gewürze",
+    "point": "Punkt",
+    "point_other": "Punkte",
+    "lastDays": "Letzte {{days}} Tage",
+    "today": "Heute",
+    "yesterday": "Gestern",
+    "plant": "Pflanze",
+    "count": "Anzahl"
+}

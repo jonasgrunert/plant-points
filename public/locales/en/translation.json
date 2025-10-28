@@ -1,0 +1,17 @@
+{
+    "addPlant": "Add Plant",
+    "inputPlant": "What have you eaten today?",
+    "vegetables": "Vegetables",
+    "fruit": "Fruits",
+    "grains": "Whole Grains",
+    "legumes": "Legumes",
+    "nuts": "Nuts / Seeds",
+    "herbs": "Herbs/Spices",
+    "point": "Point",
+    "point_other": "Points",
+    "lastDays": "Last {{days}} days",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "plant": "Plant",
+    "count": "Count"
+}

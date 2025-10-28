@@ -1,0 +1,530 @@
+{
+    "artichoke": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "arugula": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "asparagus": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "beet": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "bokchoy": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "broccoli": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "brusselsprout": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "cabbage": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "carrot": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "cauliflower": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "celery": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "collardgreens": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "cucumber": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "eggplant": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "fennel": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "greenbeans": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "jicama": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "kale": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "lettuce": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "mushroom": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "onion": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "parsnip": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "pepper": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "potato": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "pumpkin": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "radish": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "radicchio": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "scallion": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "spinach": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "squash": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "sweetpotato": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "swisschard": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "tomatillo": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "tomato": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "turnip": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "zucchini": {
+        "points": 1,
+        "category": "vegetables"
+    },
+    "acai": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "apple": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "apricot": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "avocado": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "banana": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "blackberry": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "cantaloupe": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "cherry": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "cranberry": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "date": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "fig": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "gojiberry": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "grapefruit": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "grape": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "honeydew": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "kiwi": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "lemon": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "lime": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "mango": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "nectarine": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "orange": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "olive": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "papaya": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "peach": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "pear": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "pineapple": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "plantain": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "plum": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "pomegranate": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "raspberry": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "strawberry": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "watermelon": {
+        "points": 1,
+        "category": "fruit"
+    },
+    "barley": {
+        "points": 1,
+        "category": "grains"
+    },
+    "brownrice": {
+        "points": 1,
+        "category": "grains"
+    },
+    "buckwheat": {
+        "points": 1,
+        "category": "grains"
+    },
+    "corn": {
+        "points": 1,
+        "category": "grains"
+    },
+    "kamut": {
+        "points": 1,
+        "category": "grains"
+    },
+    "millet": {
+        "points": 1,
+        "category": "grains"
+    },
+    "oats": {
+        "points": 1,
+        "category": "grains"
+    },
+    "quinoa": {
+        "points": 1,
+        "category": "grains"
+    },
+    "rye": {
+        "points": 1,
+        "category": "grains"
+    },
+    "sorghum": {
+        "points": 1,
+        "category": "grains"
+    },
+    "spelt": {
+        "points": 1,
+        "category": "grains"
+    },
+    "teff": {
+        "points": 1,
+        "category": "grains"
+    },
+    "wholewheat": {
+        "points": 1,
+        "category": "grains"
+    },
+    "wildrice": {
+        "points": 1,
+        "category": "grains"
+    },
+    "blackbeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "blackeyedpeas": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "butterbeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "cannelinibeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "chickpeas": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "favabeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "kidneybeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "lentils": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "limabeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "navybeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "peas": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "pintobeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "soybeans": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "tofu": {
+        "points": 1,
+        "category": "legumes"
+    },
+    "almonds": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "brazilnuts": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "cashews": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "chiaseeds": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "coconut": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "flaxseeds": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "hazelnuts": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "hempseeds": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "macadamianuts": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "peanuts": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "pecans": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "pilinuts": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "pinenuts": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "pistachios": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "pumpkinseeds": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "sesameseeds": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "sunflowerseeds": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "walnuts": {
+        "points": 1,
+        "category": "nuts"
+    },
+    "basil": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "cayenne": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "cilantro": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "cinnamon": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "cacao": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "cumin": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "dill": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "garlic": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "ginger": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "matcha": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "mint": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "nutmeg": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "oregano": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "parsley": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "pepperherb": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "sage": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "thyme": {
+        "points": 0.25,
+        "category": "herbs"
+    },
+    "turmeric": {
+        "points": 0.25,
+        "category": "herbs"
+    }
+}

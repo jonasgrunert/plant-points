@@ -1,0 +1,102 @@
+@use "@picocss/pico/scss/pico" with (
+  $theme-color: "green"
+);
+
+.react-aria-Popover {
+  box-shadow: var(--pico-box-shadow);
+  border-radius: var(--pico-border-radius);
+  background: var(--pico-card-background-color);
+}
+
+.react-aria-ListBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: var(--pico-spacing);
+  hgroup {
+    margin-bottom: 0;
+  }
+}
+
+.react-aria-ListBoxSection {
+  display: flex;
+  flex-direction: column;
+  header {
+    border-bottom: 1px solid var(--pico-primary-border);
+  }
+}
+
+.react-aria-ListBoxItem {
+  padding: var(--pico-spacing);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  > .plant {
+    flex: 1 1 auto;
+  }
+  > .point {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  > form {
+    width: auto;
+    button[type="submit"] {
+      margin-bottom: 0;
+      --pico-color: var(--pico-del-color);
+      --pico-border-color: transparent;
+      &:hover,
+      &:focus {
+        --pico-color: var(--pico-del-color) !important;
+        --pico-border-color: var(--pico-del-color) !important;
+      }
+    }
+  }
+  &[data-focus-visible],
+  &[data-focused],
+  &[data-pressed],
+  &[data-selected] {
+    background-color: var(--pico-primary-focus);
+  }
+}
+
+fieldset.group {
+  display: inline-flex;
+  input,
+  button {
+    border-radius: 0;
+  }
+  input:first-of-type {
+    border-top-left-radius: var(--pico-border-radius);
+    border-bottom-left-radius: var(--pico-border-radius);
+  }
+  div {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+  button {
+    width: auto;
+    white-space: nowrap;
+    border-top-right-radius: var(--pico-border-radius);
+    border-bottom-right-radius: var(--pico-border-radius);
+  }
+}
+
+h2 a.contrast.title {
+  display: inline-flex;
+  justify-content: center;
+  gap: var(--pico-spacing);
+  align-items: center;
+}
+
+summary[role="button"] {
+  display: flex;
+  justify-content: space-between;
+  :first-child {
+    width: 100%;
+  }
+  :last-child {
+    white-space: nowrap;
+  }
+}
