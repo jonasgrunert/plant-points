@@ -3,6 +3,7 @@ import list from "../assets/list.json";
 import { useTranslation } from "react-i18next";
 import { IconTrashX } from "@tabler/icons-react";
 import { useFetcher } from "react-router";
+import type { Category } from "../storage/plantPoints";
 
 export const SearchPlant = ({
   plantId,
@@ -10,7 +11,7 @@ export const SearchPlant = ({
 }: {
   plantId: keyof typeof list;
   data: {
-    category: string;
+    category: "vegetables" | "herbs" | "fruit" | "legumes" | "nuts" | "grains";
     points: number;
   };
 }) => {
@@ -44,7 +45,7 @@ export const LogPlant = ({
   rev: string;
   plantId: keyof typeof list;
   data: {
-    category: string;
+    category: Category;
     points: number;
   };
 }) => {

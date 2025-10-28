@@ -5,7 +5,7 @@ import {
   type ActionFunctionArgs,
   type RouteObject,
 } from "react-router";
-import { db } from "../storage/plantPoints";
+import { db, type Category, type Plant } from "../storage/plantPoints";
 import { DateTime, Duration } from "luxon";
 import {
   Button,
@@ -16,14 +16,12 @@ import {
   Header,
   Input,
   ListBox,
-  ListBoxItem,
   ListBoxSection,
   Popover,
   Row,
   Table,
   TableBody,
   TableHeader,
-  useFilter,
 } from "react-aria-components";
 import list from "../assets/list.json";
 import { useRef } from "react";
@@ -33,7 +31,7 @@ const action = async ({ request }: ActionFunctionArgs) => {
   const formData = await request.formData();
   const action = formData.get("action");
   if (action === "add") {
-    const plant = formData.get("plant");
+    const plant = formData.get("plant") as Plant;
     if (plant === null) {
       return new Response("No plant to add", { status: 400 });
     }
@@ -57,7 +55,7 @@ const action = async ({ request }: ActionFunctionArgs) => {
 const loader = async () => {
   const now = DateTime.now();
   const date = now.minus(Duration.fromObject({ days: 7 })).toISODate();
-  const docs = await db.allDocs<{ plant: string; date: string }>({
+  const docs = await db.allDocs({
     include_docs: true,
     startkey: now.toISO(),
     endkey: date,
@@ -73,7 +71,7 @@ const loader = async () => {
         plant: c.doc!.plant,
         points: existing === undefined ? list[c.doc!.plant].points : 0,
         rev: c.value.rev,
-        category: list[c.doc!.plant].category,
+        category: list[c.doc!.plant].category as Category,
       };
       if (p.days[0]?.day === day) {
         p.days[0].entries.push(entry);
@@ -86,7 +84,7 @@ const loader = async () => {
       return p;
     },
     {
-      table: new Map<string, number>(),
+      table: new Map<keyof typeof list, number>(),
       days: [] as {
         day: string;
         entries: [
@@ -94,8 +92,8 @@ const loader = async () => {
             id: string;
             points: number;
             rev: string;
-            plant: string;
-            category: string;
+            plant: Plant;
+            category: Category;
           }
         ];
       }[],
@@ -116,8 +114,9 @@ const SearchPlants = () => {
       <Popover triggerRef={inputRef} className="container react-aria-Popover">
         <ListBox
           items={Object.entries(list).map(([plantId, data]) => ({
-            id: plantId,
-            ...data,
+            id: plantId as Plant,
+            points: data.points,
+            category: data.category as Category,
           }))}
         >
           {(item) => <SearchPlant plantId={item.id} data={item} />}
