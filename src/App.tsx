@@ -22,10 +22,10 @@ function App() {
       }
     };
 
-    window.addEventListener("beforinstallprompt", onBefore);
+    window.addEventListener("beforeinstallprompt", onBefore);
 
     return () => {
-      window.removeEventListener("beforinstallprompt", onBefore);
+      window.removeEventListener("beforeinstallprompt", onBefore);
     };
   }, []);
   const { t } = useTranslation();
@@ -35,7 +35,9 @@ function App() {
       {/* <PWABadge /> */}
       {install !== null && (
         <div className="install-button">
-          <Button className="outline">{t("install")}</Button>
+          <Button className="outline" onClick={install}>
+            {t("install")}
+          </Button>
         </div>
       )}
     </>
