@@ -32,7 +32,7 @@ const action = async ({ request }: ActionFunctionArgs) => {
   const action = formData.get("action");
   if (action === "add") {
     const plant = formData.get("plant") as Plant;
-    if (plant === null) {
+    if (plant === null || list[plant] === undefined) {
       return new Response("No plant to add", { status: 400 });
     }
     const date = DateTime.now().toISO();
