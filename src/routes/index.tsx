@@ -63,6 +63,9 @@ const loader = async () => {
   });
   const result = docs.rows.reduce(
     (p, c) => {
+      if (list[c.doc?.plant ?? ""] === undefined) {
+        return p;
+      }
       const existing = p.table.get(c.doc!.plant);
       p.table.set(c.doc!.plant, (existing ?? 0) + 1);
       const day = DateTime.fromISO(c.doc!.date).toISODate()!;
