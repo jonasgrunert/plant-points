@@ -73,8 +73,8 @@ const loader = async () => {
         rev: c.value.rev,
         category: list[c.doc!.plant].category as Category,
       };
-      if (p.days[0]?.day === day) {
-        p.days[0].entries.push(entry);
+      if (p.days.at(-1)?.day === day) {
+        p.days.at(-1)?.entries.push(entry);
       } else {
         p.days.push({
           day,
