@@ -63,7 +63,7 @@ const loader = async () => {
   });
   const result = docs.rows.reduce(
     (p, c) => {
-      if (list[c.doc?.plant ?? ""] === undefined) {
+      if (list[c.doc?.plant as Plant] === undefined) {
         return p;
       }
       const existing = p.table.get(c.doc!.plant);
